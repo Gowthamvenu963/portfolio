@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="venu1.jpg" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">about</a></li>
+                <li> <a href="#portfolio">portfolio</a></li>
+                <li> <a href="#contact">contact</a></li> 
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+                
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>B.Tech Student</p>
+                    <h1>Hi,I'm <span>KOLUSU VENU GOWTHAM</span></h1>
+                </div>
+    </div>
+</div>
+<!-------------about-----------> 
+<div id="about">
+    <div class="container">    
+       <div class="row">
+           <div class="about-col-1">
+              <img src="passport.jpg" height="500" width="500">
+           </div>
+           <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Aspiring to use my knowledge and the passion for a reputable company that provides opportunities for<br> 
+                skill development and career advancement.I am eager to contribute to a dynamic team, learn<br>
+                from them and work towards achieving both personal and organizational goals.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li> 
+                        <span>Pega</span><br>Certified System Architect</li>
+                    <li><span>Cadence</span><br>VLSI Backend Design(Full Custom <br>& Semi custom) </li>
+                    <li><span>LabView</span><br>Graphic Interface for Visual <br>Programming language</li>   
+                    <li><span>MaTLab</span><br>Digital signal Processing using MATLAB</li>
+                    <li><span>ANSYSS HFSS</span><br>Designing and analysis of various<br>
+                         antennas and their frequencies</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li> 
+                        <span>2023</span><br>Internship on CyberSecurity(AICTE Approved)
+                 </li>
+                    <li><span>April 2024-June 2024</span><br>Internship on Switching,Routing and network Essenitals(AICTE Approved)</li>
+                </ul>
+            </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li> 
+                            <span>2022-2025</span><br>B.Tech from Lakkireddy BaliReddy college of Engineering
+                        </li>
+                        <li><span>2019-2022</span><br>Government Polytechnic ,Vijayawada</li>
+                        <li><span>2018</span><br>SSC from Geethanjali High School,Reddigudem</li>  
+                    </ul>
+                </div>
+</div>
+           </div>
+           </div>
+        </div>
+    </div>
+</body>
+<!----------------------Portfolio-------->
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQXy9i6yD62ybzkXvoeJkP3znyd9HnLMikg&s">
+          <div class="layer">
+            <h3>Patent Registration </h3>
+            <p>A patent is an exclusive right granted for an invention. Patents benefit inventors by providing them with legal protection of their inventions.
+            </p>
+            <a href="https://www.bing.com/search?pglt=2083&q=patent+registration&cvid=2f027916af1a46c997cf172914756a0a&gs_lcrp=EgZjaHJvbWUqBggBEAAYQDIGCAAQRRg5MgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDYyODBqMGoxqAIAsAIA&FORM=ANNTA1&PC=ASTS.app/"><i class="fa-solid fa-link"></i></a>
+
+          </div>    
+    </div>
+        
+        <div class="work">
+            <img src="carproject.jpg" height="330px">
+            <div class="layer">
+                <h3>Car Rental</h3>
+                <p>MOOV  is an Organisation creating CAR RENTAL
+                    application that provide an option to Select And
+                    Book Cars online as requested by the customer
+                </p>
+                <a href="https://www.booking.com/cars/index.en-gb.html?aid=1680724&label=msn-kzUlcU_tawbYQ9ucE7hbcg%3AtyS%3Aai80470569906312%3Aca%3Ame%3Aso%3AtekzUlcU_tawbYQ9ucE7hbcg&sid=9bdb93a89599d203f3027e6ab6556afd&adplat=booking-bing&affiliateCode=booking-cars&keep_landing=1&msclkid=f0a36649ae501ba86b3a00bd9672e640&.app/"><i class="fa-solid fa-link"></i></a>
+              </div>    
+        </div>
+    </div>
+    <a href="#"class="btn">See more</a>
+   </div> 
+</div>
+<!------------------------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>venugowtham963@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>9347997559</p>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/venu-gowtham-6b3606282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=9347997559&text=Hi%20this%20is%20K.gowtham"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://www.instagram.com/_gowtham_403?igsh=NmJ3NHhjbWR6dm93"><i class="fa-brands fa-square-instagram"></i></a>
+
+        
+        <div class="download"><a href="Kolusu_Venu Gowtham(Resume).pdf" download class="btn btn2">Download Resume</a></div>
+       </div>
+       </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">
+
+            </span>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright @ Gowtham </p>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+
+
+</body>  
+</html>
